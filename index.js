@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors(
   {
-    origin: "http://localhost:3000", // https://test-frontend-w7hf.onrender.com
+    origin: "https://ecommerce-frontend-beta-neon.vercel.app",
     credentials: true,
     allowedHeaders:['Content-Type', 'Authorization']
   }
